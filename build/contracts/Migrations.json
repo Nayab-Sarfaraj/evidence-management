@@ -671,7 +671,7 @@
   "sourceMap": "57:358:1:-:0;;;83:33;;;-1:-1:-1;;;;;;83:33:1;106:10;83:33;;;57:358;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "57:358:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:36;;;;;;;;;160:25:2;;;148:2;133:18;122:36:1;;;;;;;;83:33;;;;;-1:-1:-1;;;;;83:33:1;;;;;;-1:-1:-1;;;;;360:32:2;;;342:51;;330:2;315:18;83:33:1;196:203:2;304:109:1;;;;;;:::i;:::-;;:::i;:::-;;;219:5;;-1:-1:-1;;;;;219:5:1;205:10;:19;197:83;;;;-1:-1:-1;;;197:83:1;;791:2:2;197:83:1;;;773:21:2;830:2;810:18;;;803:30;869:34;849:18;;;842:62;-1:-1:-1;;;920:18:2;;;913:49;979:19;;197:83:1;;;;;;;;370:24:::1;:36:::0;304:109::o;404:180:2:-;463:6;516:2;504:9;495:7;491:23;487:32;484:52;;;532:1;529;522:12;484:52;-1:-1:-1;555:23:2;;404:180;-1:-1:-1;404:180:2:o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract Migrations {\n    address public owner = msg.sender;\n    uint public last_completed_migration;\n\n    modifier restricted() {\n        require(msg.sender == owner, \"This function is restricted to the contract's owner\");\n        _;\n    }\n\n    function setCompleted(uint completed) public restricted {\n        last_completed_migration = completed;\n    }\n}\n",
-  "sourcePath": "/Users/nayabsarfaraj/Desktop/EvidenceManagementSystem/contracts/Migrations.sol",
+  "sourcePath": "/Users/nayabsarfaraj/Desktop/evidence-management/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1074,12 +1074,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xe6e5fe6e8AFFc400322468E8a42e7424a65Bb79A",
-      "transactionHash": "0xd110f8ddd38a941efe2072ea8160ffe0eadec7099d755dd345f7ca132810012a"
+      "address": "0x162B5b0a49721ca42d6e2cE9E0673aba69f00051",
+      "transactionHash": "0xd3b50c92c2cd6a1a6105249ce704ecde86f969af0fab0646b326019606fa0b47"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-12-08T04:58:44.708Z",
+  "updatedAt": "2025-12-17T18:34:59.622Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

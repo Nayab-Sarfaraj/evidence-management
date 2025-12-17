@@ -4,7 +4,7 @@ let contract;
 let userAccount;
 
 //import CONTRACT_ABI from './ContractABI'; // Adjust the path as necessary
-const contractAddress = '0x2C1fbAd20A31B6024ac919b40671179904DcF261';
+const contractAddress = '0x6BEB687C2E0Cd960795D6232893aCc90fF20b05C';
 const CONTRACT_ABI = [
     {
       "anonymous": false,
@@ -475,13 +475,13 @@ function loadContract() {
             contract.methods ? Object.keys(contract.methods).length : "No methods object");
         
         // Test calling a simple view function on the contract
-        contract.methods.getEvidenceCount().call()
-            .then(count => {
-                console.log("Contract connected successfully - Evidence count:", count);
-            })
-            .catch(err => {
-                console.error("Error calling test method:", err);
-            });
+        // contract.methods.getEvidenceCount().call()
+        //     .then(count => {
+        //         console.log("Contract connected successfully - Evidence count:", count);
+        //     })
+        //     .catch(err => {
+        //         console.error("Error calling test method:", err);
+        //     });
             
         return true;
     } catch (error) {

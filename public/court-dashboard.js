@@ -5,7 +5,7 @@ let contract;
 let ipfs;
 let userAccount;
 let userData;
-const contractAddress = '0x2C1fbAd20A31B6024ac919b40671179904DcF261';
+const contractAddress = '0x6BEB687C2E0Cd960795D6232893aCc90fF20b05C';
 const CONTRACT_ABI = [
     {
       "anonymous": false,
